@@ -18,6 +18,8 @@ namespace CapitalNerd.Laranjinhai.Infrastructure.DependencyInjection
             services.AddScoped<IMensagemRepository, MensagemRepository>();
             services.AddScoped<IRespostaRepository, RespostaRepository>();
             services.AddScoped<ISessaoWhatsappRepository, SessaoWhatsappRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork.UnitOfWork>();
+
 
             // DbContext com PostgreSQL
             services.AddDbContext<LaranjinhaiDbContext>(options =>

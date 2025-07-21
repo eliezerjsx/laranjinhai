@@ -8,7 +8,7 @@ public class MensagemMapping : IEntityTypeConfiguration<Mensagem>
 {
     public void Configure(EntityTypeBuilder<Mensagem> builder)
     {
-        builder.ToTable("mensagems");
+        builder.ToTable("mensagens");
 
         builder.HasKey(e => e.Id);
 

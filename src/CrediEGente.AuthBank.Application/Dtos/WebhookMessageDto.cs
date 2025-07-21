@@ -8,7 +8,7 @@ namespace CapitalNerd.Laranjinhai.Application.Dtos
         public string To { get; set; } = default!;
         public string Body { get; set; } = default!;
         public string Type { get; set; } = default!;
-        public string? SenderName { get; set; }
+        public string? NotifyName { get; set; }
         public JsonElement RawJson { get; set; }  
     }
 
