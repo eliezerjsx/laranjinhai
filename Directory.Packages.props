@@ -1,0 +1,48 @@
+<Project>
+  <PropertyGroup Label="Common properties">
+    <Product>Portabilidade</Product>
+    <Copyright>Copyright (c) 2025 - CrediEGente.</Copyright>
+    <Authors>Mouts.</Authors>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+    <GenerateRequiresPreviewFeaturesAttribute>true</GenerateRequiresPreviewFeaturesAttribute>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <NoWarn>CS8600, CS8603, CA1822, CS8604, CS8618, CS8601, CS8602, CS8625, CS8629, CS9124, CS8622</NoWarn>
+  </PropertyGroup>
+  <ItemGroup Label="Packages">
+  </ItemGroup>
+  <ItemGroup>
+    <PackageVersion Include="AutoMapper" Version="14.0.0" />
+    <PackageVersion Include="ClosedXML" Version="0.105.0" />
+    <PackageVersion Include="Elastic.Apm.EntityFrameworkCore" Version="1.32.2" />
+    <PackageVersion Include="FluentValidation" Version="12.0.0" />
+    <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="12.0.0" />
+    <PackageVersion Include="Hangfire" Version="1.8.20" />
+    <PackageVersion Include="Hangfire.Core" Version="1.8.20" />
+    <PackageVersion Include="Hangfire.SqlServer" Version="1.8.20" />
+    <PackageVersion Include="MediatR" Version="13.0.0" />
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.18" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="8.0.18" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.17" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.17" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.17" />
+    <PackageVersion Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.17" />
+    <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.7" />
+    <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
+    <PackageVersion Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageVersion Include="Novell.Directory.Ldap.NETStandard" Version="4.0.0" />
+    <PackageVersion Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+    <PackageVersion Include="OpenTelemetry.Exporter.Console" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
+    <PackageVersion Include="OpenTelemetry.Instrumentation.Http" Version="1.12.0" />
+    <PackageVersion Include="StackExchange.Redis" Version="2.8.58" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="8.1.4" />
+    <PackageVersion Include="System.DirectoryServices.AccountManagement" Version="9.0.6" />
+    <PackageVersion Include="System.DirectoryServices.Protocols" Version="9.0.6" />
+  </ItemGroup>
+</Project>
